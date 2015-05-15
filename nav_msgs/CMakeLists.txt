@@ -10,7 +10,8 @@ add_message_files(
   MapMetaData.msg
   OccupancyGrid.msg
   Odometry.msg
-  Path.msg)
+  Path.msg
+  PathWithCovariance.msg)
 
 add_service_files(
   DIRECTORY srv
