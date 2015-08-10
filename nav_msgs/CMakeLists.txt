@@ -6,11 +6,14 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs message_generation std_msg
 add_message_files(
   DIRECTORY msg
   FILES
+  Edge.msg
   GridCells.msg
   MapMetaData.msg
   OccupancyGrid.msg
   Odometry.msg
-  Path.msg)
+  Path.msg
+  PoseGraph.msg
+  Vertex.msg)
 
 add_service_files(
   DIRECTORY srv
